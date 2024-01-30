@@ -19,7 +19,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts' -es Configuration/ESBuild.ts"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20240129.0",
