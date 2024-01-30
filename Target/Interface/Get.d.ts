@@ -12,5 +12,5 @@ export default interface Type {
      */
     (Instance: {
         [key: string]: any;
-    }): Map<any, any>;
+    }): Promise<Map<any, any>>;
 }

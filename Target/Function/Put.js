@@ -1,1 +1,1 @@
-const a=(...[e])=>{if(e instanceof Map){const t={};for(const[s,r]of e.entries())r instanceof Map?t[s]=a(r):t[s]=r;return t}return e};var n=a;export{a as _Function,n as default};
+var s=async(...[e])=>{if(e instanceof Map){const t={};for(const[r,a]of e.entries())a instanceof Map?t[r]=await(await import("@Function/Put.js")).default(a):t[r]=a;return t}return e};export{s as default};
