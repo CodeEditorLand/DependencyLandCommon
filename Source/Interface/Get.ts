@@ -14,5 +14,5 @@ export default interface Type {
 		// biome-ignore lint/suspicious/noExplicitAny:
 		[key: string]: any;
 		// biome-ignore lint/suspicious/noExplicitAny:
-	}): Map<any, any>;
+	}): Promise<Map<any, any>>;
 }

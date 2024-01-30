@@ -2,7 +2,7 @@
  * @module Get
  *
  */
-export const _Function = ((...[Instance]: Parameters<Type>) => {
+export default (async (...[Instance]: Parameters<Type>) => {
 	if (typeof Instance === "string") {
 		return Instance;
 	}
@@ -16,7 +16,12 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 					typeof Instance[Key] === "object" &&
 					!Array.isArray(Instance[Key])
 				) {
-					_Map.set(Key, _Function(Instance[Key]));
+					_Map.set(
+						Key,
+						await (await import("@Function/Get.js")).default(
+							Instance[Key],
+						),
+					);
 				} else {
 					_Map.set(Key, Instance[Key]);
 				}
@@ -26,7 +31,5 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 
 	return _Map;
 }) satisfies Type as Type;
-
-export default _Function;
 
 import type Type from "../Interface/Get.js";

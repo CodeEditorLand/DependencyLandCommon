@@ -2,7 +2,7 @@
  * @module Put
  *
  */
-export const _Function = ((...[Instance]: Parameters<Type>) => {
+export default (async (...[Instance]: Parameters<Type>) => {
 	if (Instance instanceof Map) {
 		const _Value = {} as {
 			// biome-ignore lint/suspicious/noExplicitAny:
@@ -11,7 +11,9 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 
 		for (const [Key, Value] of Instance.entries()) {
 			if (Value instanceof Map) {
-				_Value[Key] = _Function(Value);
+				_Value[Key] = await (await import("@Function/Put.js")).default(
+					Value,
+				);
 			} else {
 				_Value[Key] = Value;
 			}
@@ -24,5 +26,3 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 }) satisfies Type as Type;
 
 import type Type from "../Interface/Put.js";
-
-export default _Function;

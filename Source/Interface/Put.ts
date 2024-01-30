@@ -10,5 +10,5 @@ export default interface Type {
 	 * type. It is used to represent an instance of a class or an object.
 	 *
 	 */
-	(Instance: unknown): unknown;
+	(Instance: unknown): Promise<unknown>;
 }
