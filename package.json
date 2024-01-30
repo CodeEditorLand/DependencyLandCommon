@@ -3,14 +3,13 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "🏜️ Common scripts for Land.",
-	"homepage": "https://github.com/CodeEditorLand/NPM#readme",
+	"homepage": "https://common.land.playform.cloud",
 	"bugs": {
-		"url": "https://github.com/CodeEditorLand/NPM/issues"
+		"url": "https://github.com/CodeEditorLand/NPMCommon/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/NPM.git",
-		"directory": "Common"
+		"url": "git+https://github.com/CodeEditorLand/NPMCommon.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
