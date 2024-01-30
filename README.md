@@ -1,11 +1,11 @@
-# [@common/now-playing_cards] 🗃️
+# [@codeeditorland/common] 🗃️
 
 ## Installation
 
-First, install the `@common/now-playing_cards` component like so:
+First, install the `@codeeditorland/common` component like so:
 
 ```sh
-npm install -D -E NowPlayingCards/Common#main
+npm install -D -E @codeeditorland/common
 ```
 
 **`Index.ts`**
@@ -18,10 +18,10 @@ import {
 	Get,
 	Put,
 	Uint8ArrayFromObject,
-} from "@common/now-playing_cards";
+} from "@codeeditorland/common";
 ```
 
-[@common/now-playing_cards]: https://npmjs.org/@common/now-playing_cards
+[@codeeditorland/common]: https://npmjs.org/@codeeditorland/common
 
 ## Changelog
 
