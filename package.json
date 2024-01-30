@@ -2,7 +2,7 @@
 	"name": "@codeeditorland/common",
 	"version": "0.0.1",
 	"private": false,
-	"description": "🏜️ Land common scripts",
+	"description": "🏜️ Common scripts for Land.",
 	"homepage": "https://github.com/CodeEditorLand/NPM#readme",
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/NPM/issues"
