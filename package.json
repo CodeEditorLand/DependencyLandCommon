@@ -1,8 +1,8 @@
 {
 	"name": "@codeeditorland/common",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": false,
-	"description": "🌄 Common scripts for Land.",
+	"description": "Common scripts for Land. 🗃️",
 	"homepage": "https://common.land.playform.cloud",
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/NPMCommon/issues"
@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20240208.0",
-		"typescript-esbuild": "0.3.8"
+		"typescript-esbuild": "0.3.9"
 	},
 	"publishConfig": {
 		"access": "public"
