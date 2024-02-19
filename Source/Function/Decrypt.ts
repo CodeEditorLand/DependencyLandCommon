@@ -27,10 +27,10 @@ export default (async (...[Data, Key, Vector]: Parameters<Type>) =>
 					name: "AES-GCM",
 				},
 				false,
-				["encrypt", "decrypt"],
+				["encrypt", "decrypt"]
 			),
-			Data,
-		),
+			Data
+		)
 	)) satisfies Type as Type;
 
 import type Type from "../Interface/Decrypt.js";

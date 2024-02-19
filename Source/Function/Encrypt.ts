@@ -32,11 +32,11 @@ export default (async (...[Data, Key]: Parameters<Type>) => {
 						name: "AES-GCM",
 					},
 					false,
-					["encrypt", "decrypt"],
+					["encrypt", "decrypt"]
 				),
 				(await import("buffer")).Buffer.from(JSON.stringify(Data))
-					.buffer,
-			),
+					.buffer
+			)
 		),
 	};
 }) satisfies Type as Type;

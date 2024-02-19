@@ -11,9 +11,9 @@ export default (async (...[Instance]: Parameters<Type>) => {
 
 		for (const [Key, Value] of Instance.entries()) {
 			if (Value instanceof Map) {
-				_Value[Key] = await (await import("@Function/Put.js")).default(
-					Value,
-				);
+				_Value[Key] = await (
+					await import("@Function/Put.js")
+				).default(Value);
 			} else {
 				_Value[Key] = Value;
 			}
