@@ -9,9 +9,7 @@ var Get_default = async (...[Instance]) => {
         if (typeof Instance[Key] === "object" && !Array.isArray(Instance[Key])) {
           _Map.set(
             Key,
-            await (await import("@Function/Get.js")).default(
-              Instance[Key]
-            )
+            await (await import("@Function/Get.js")).default(Instance[Key])
           );
         } else {
           _Map.set(Key, Instance[Key]);
