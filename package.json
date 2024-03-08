@@ -5,11 +5,11 @@
 	"description": "🗃️ Common scripts for Land.",
 	"homepage": "https://common.land.playform.cloud",
 	"bugs": {
-		"url": "https://github.com/CodeEditorLand/NPMCommon/issues"
+		"url": "https://github.com/CodeEditorLand/FoundationLandNPMCommon/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/NPMCommon.git"
+		"url": "git+https://github.com/CodeEditorLand/FoundationLandNPMCommon.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
