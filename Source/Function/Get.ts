@@ -18,9 +18,9 @@ export default (async (...[Instance]: Parameters<Type>) => {
 				) {
 					_Map.set(
 						Key,
-						await (
-							await import("@Function/Get.js")
-						).default(Instance[Key])
+						await (await import("@Function/Get.js")).default(
+							Instance[Key],
+						),
 					);
 				} else {
 					_Map.set(Key, Instance[Key]);
