@@ -2,8 +2,8 @@
 	"name": "@codeeditorland/common",
 	"version": "0.0.4",
 	"private": false,
-	"description": "🗃️ Common scripts for Land.",
-	"homepage": "https://common.land.playform.cloud",
+	"description": "👨🏻‍🔧 NPM Common.",
+	"homepage": "https://Common.Land.Playform.Cloud",
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/FoundationLandNPMCommon/issues"
 	},
@@ -15,7 +15,7 @@
 	"author": {
 		"name": "Nikola R. Hristov",
 		"email": "Nikola@Playform.Cloud",
-		"url": "https://nikolahristov.tech"
+		"url": "https://NikolaHristov.Tech"
 	},
 	"type": "module",
 	"scripts": {
