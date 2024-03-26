@@ -5,17 +5,17 @@
 	"description": "👨🏻‍🔧 NPM Common.",
 	"homepage": "https://Common.Land.Playform.Cloud",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/FoundationLandNPMCommon/issues"
+		"url": "https://GitHub.Com/CodeEditorLand/FoundationLandNPMCommon/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://GitHub.Com/CodeEditorLand/FoundationLandNPMCommon.git"
+		"url": "git+https://GitHub.Com/CodeEditorLand/FoundationLandNPMCommon.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Nikola R. Hristov",
 		"email": "Nikola@Playform.Cloud",
-		"url": "HTTPS://NikolaHristov.Tech"
+		"url": "https://NikolaHristov.Tech"
 	},
 	"type": "module",
 	"scripts": {
@@ -24,8 +24,8 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20240320.1",
-		"typescript-document": "0.0.5",
-		"typescript-esbuild": "0.4.5"
+		"typescript-document": "0.0.6",
+		"typescript-esbuild": "0.4.6"
 	},
 	"publishConfig": {
 		"access": "public"

@@ -23,7 +23,7 @@ import {
 } from "@codeeditorland/common";
 ```
 
-[@codeeditorland/common]: HTTPS://NPMJS.Org/@codeeditorland/common
+[@codeeditorland/common]: https://NPMJS.Org/@codeeditorland/common
 
 ## Changelog
 
