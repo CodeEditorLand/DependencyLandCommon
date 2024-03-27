@@ -1,4 +1,4 @@
-# 👨🏻‍🔧 [@codeeditorland/common]
+# 👨🏻‍🔧 [@codeeditorland/common]
 
 ## Installation
 
