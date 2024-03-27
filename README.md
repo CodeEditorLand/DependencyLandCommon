@@ -1,8 +1,8 @@
-# 👨🏻‍🔧 [@codeeditorland/common]
+# 👨🏻‍🔧 [Common]
 
 ## Installation
 
-First, install the `@codeeditorland/common` component like so:
+First, install the `Common` component like so:
 
 ```sh
 npm install -D -E @codeeditorland/common
@@ -23,7 +23,7 @@ import {
 } from "@codeeditorland/common";
 ```
 
-[@codeeditorland/common]: https://NPMJS.Org/@codeeditorland/common
+[Common]: https://npmjs.org/@codeeditorland/common
 
 ## Changelog
 
