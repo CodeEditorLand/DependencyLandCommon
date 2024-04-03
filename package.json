@@ -2,7 +2,7 @@
 	"name": "@codeeditorland/common",
 	"version": "0.0.4",
 	"private": false,
-	"description": "👨🏻‍🔧 NPM Common.",
+	"description": "👨🏻‍🔧 Common.",
 	"homepage": "https://Common.Land.playform.cloud",
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/FoundationLandNPMCommon/issues"
