@@ -23,11 +23,11 @@
 		"Build": "Build 'Source/**/*.ts' --ESBuild Configuration/ESBuild.ts"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20240402.0",
+		"@cloudflare/workers-types": "4.20240403.0",
 		"@playform/build": "0.0.2"
 	},
 	"optionalDependencies": {
-		"@playform/document": "0.0.2"
+		"@playform/document": "0.0.3"
 	},
 	"publishConfig": {
 		"access": "public"
