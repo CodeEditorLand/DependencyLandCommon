@@ -19,15 +19,11 @@
 	},
 	"type": "module",
 	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts' --ESBuild Configuration/ESBuild.ts"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20240403.0",
-		"@playform/build": "0.0.2"
-	},
-	"optionalDependencies": {
-		"@playform/document": "0.0.3"
+		"@cloudflare/workers-types": "4.20240404.0",
+		"@playform/build": "0.0.5"
 	},
 	"publishConfig": {
 		"access": "public"
