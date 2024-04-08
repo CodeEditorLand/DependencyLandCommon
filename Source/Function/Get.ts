@@ -32,4 +32,4 @@ export default (async (...[Instance]: Parameters<Type>) => {
 	return _Map;
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Get.js";
+import type Type from "@Interface/Get.js";

@@ -25,4 +25,4 @@ export default (async (...[Instance]: Parameters<Type>) => {
 	return Instance;
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Put.js";
+import type Type from "@Interface/Put.js";
