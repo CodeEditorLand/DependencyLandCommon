@@ -3,7 +3,7 @@
  *
  */
 
-export default (async (...[Data, Key, Vector]: Parameters<Type>) =>
+export default (async (...[Data, Key, Vector]: Parameters<Interface>) =>
 	new Uint8Array(
 		await (
 			await import("@cloudflare/workers-types/experimental")
@@ -31,6 +31,6 @@ export default (async (...[Data, Key, Vector]: Parameters<Type>) =>
 			),
 			Data,
 		),
-	)) satisfies Type as Type;
+	)) satisfies Interface as Interface;
 
-import type Type from "@Interface/Decrypt.js";
+import type Interface from "@Interface/Decrypt.js";

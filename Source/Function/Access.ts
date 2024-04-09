@@ -3,7 +3,7 @@
  *
  */
 export default (async (
-	...[Key, Identifier, { get }, View]: Parameters<Type>
+	...[Key, Identifier, { get }, View]: Parameters<Interface>
 ) => {
 	try {
 		const { Vector, Data } = (await get(Identifier, {
@@ -20,9 +20,9 @@ export default (async (
 			).toString(),
 		)[View];
 	} catch (_Error) {}
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
-import type Type from "@Interface/Access.js";
+import type Interface from "@Interface/Access.js";
 
 import type Data from "@Interface/Data.js";
 

@@ -2,7 +2,7 @@
  * @module Get
  *
  */
-export default (async (...[Instance]: Parameters<Type>) => {
+export default (async (...[Instance]: Parameters<Interface>) => {
 	if (typeof Instance === "string") {
 		return Instance;
 	}
@@ -30,6 +30,6 @@ export default (async (...[Instance]: Parameters<Type>) => {
 	}
 
 	return _Map;
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
-import type Type from "@Interface/Get.js";
+import type Interface from "@Interface/Get.js";

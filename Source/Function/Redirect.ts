@@ -2,13 +2,13 @@
  * @module Redirect
  *
  */
-export default (async (...Option: Parameters<Type>) =>
+export default (async (...Option: Parameters<Interface>) =>
 	Response.redirect(
 		Option[0] ?? "",
 		Option[1] ?? 302,
-	)) satisfies Type as Type;
+	)) satisfies Interface as Interface;
 
-import type Type from "@Interface/Redirect.js";
+import type Interface from "@Interface/Redirect.js";
 
 export const { Response } = await import(
 	"@cloudflare/workers-types/experimental/index.js"
