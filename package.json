@@ -5,11 +5,11 @@
 	"description": "👨🏻‍🏭 Common —",
 	"homepage": "https://common.land.playform.cloud",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/FoundationLandCommon/issues"
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/DependencyLandCommon/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/FoundationLandCommon.git"
+		"url": "git+HTTPS://github.com/CodeEditorLand/DependencyLandCommon.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
