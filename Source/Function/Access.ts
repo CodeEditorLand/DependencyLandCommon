@@ -19,7 +19,9 @@ export default (async (
 				),
 			).toString(),
 		)[View];
-	} catch (_Error) {}
+	} catch (_Error) {
+		console.log(_Error);
+	}
 }) satisfies Interface as Interface;
 
 import type Interface from "../Interface/Access.js";
