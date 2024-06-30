@@ -2,6 +2,6 @@
  * @module Put
  *
  */
-declare const _default: Type;
+declare const _default: Interface;
 export default _default;
-import type Type from "../Interface/Put.js";
+import type Interface from "../Interface/Put.js";

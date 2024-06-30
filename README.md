@@ -8,7 +8,7 @@ First, install the `Common` component like so:
 npm install -D -E @codeeditorland/common
 ```
 
-**`Index.ts`**
+**`Component.ts`**
 
 ```ts
 import {
