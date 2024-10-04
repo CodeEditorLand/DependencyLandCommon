@@ -1,3 +1,5 @@
+import type Interface from "../Interface/Get.js";
+
 /**
  * @module Get
  *
@@ -18,9 +20,9 @@ export default (async (...[Instance]: Parameters<Interface>) => {
 				) {
 					_Map.set(
 						Key,
-						await (await import("@Function/Get.js")).default(
-							Instance[Key],
-						),
+						await (
+							await import("@Function/Get.js")
+						).default(Instance[Key]),
 					);
 				} else {
 					_Map.set(Key, Instance[Key]);
@@ -31,5 +33,3 @@ export default (async (...[Instance]: Parameters<Interface>) => {
 
 	return _Map;
 }) satisfies Interface as Interface;
-
-import type Interface from "../Interface/Get.js";
