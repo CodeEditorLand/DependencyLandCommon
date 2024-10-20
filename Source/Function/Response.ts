@@ -4,7 +4,7 @@ import type Interface from "../Interface/Response.js";
  * @module Response
  *
  */
-export default (async (...Option: Parameters<Interface>) =>
+export default (async (...Option) =>
 	new Response(JSON.stringify(Option[0]), {
 		status: Option[1] ?? 200,
 		headers: {

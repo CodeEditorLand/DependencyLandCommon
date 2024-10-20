@@ -4,7 +4,7 @@ import type Interface from "../Interface/Put.js";
  * @module Put
  *
  */
-export default (async (...[Instance]: Parameters<Interface>) => {
+export default (async (...[Instance]) => {
 	if (Instance instanceof Map) {
 		const _Value = {} as {
 			// biome-ignore lint/suspicious/noExplicitAny:

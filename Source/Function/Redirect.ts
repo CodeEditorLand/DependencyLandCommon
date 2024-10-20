@@ -4,7 +4,7 @@ import type Interface from "../Interface/Redirect.js";
  * @module Redirect
  *
  */
-export default (async (...Option: Parameters<Interface>) =>
+export default (async (...Option) =>
 	Response.redirect(
 		Option[0] ?? "",
 		Option[1] ?? 302,

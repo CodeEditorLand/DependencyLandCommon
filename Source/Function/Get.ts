@@ -4,7 +4,7 @@ import type Interface from "../Interface/Get.js";
  * @module Get
  *
  */
-export default (async (...[Instance]: Parameters<Interface>) => {
+export default (async (...[Instance]) => {
 	if (typeof Instance === "string") {
 		return Instance;
 	}
