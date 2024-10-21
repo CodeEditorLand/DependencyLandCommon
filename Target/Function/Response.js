@@ -1,1 +1,1 @@
-var a=async(...e)=>new t(JSON.stringify(e[0]),{status:e[1]??200,headers:{"Content-Type":"application/json;charset=utf-8"}});const{Response:t}=await import("@cloudflare/workers-types/experimental/index.js");export{t as Response,a as default};
+var s=async(...e)=>new t(JSON.stringify(e[0]),{status:e[1]??200,headers:{"Content-Type":"application/json;charset=utf-8"}});const{Response:t}=await import("@cloudflare/workers-types/experimental/index.js");export{t as Response,s as default};
